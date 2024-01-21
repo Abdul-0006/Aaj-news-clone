@@ -1,3 +1,141 @@
-img {height: 100px; width: 100px; display: block;}
-table{ align-items: center;}
-.headings table tbody td{display: block; align-items: center;}
+.headings {
+  display: flex;
+  height: 145px;
+}
+.eng {
+  display: block;
+  margin-top: 6px;
+  margin-left: 169px;
+  color: rgb(218, 163, 63);
+  font-style: italic;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+}
+
+.urdu1 {
+  display: block;
+  margin-top: 32px;
+  margin-left: 169px;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+}
+.urdu3 {
+  display: block;
+  margin-top: 37px;
+  margin-left: 169px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+.left {
+  margin: -2px;
+}
+.img1 {
+  display: block;
+  margin-left: 360px;
+  margin-top: -8px;
+  height: 160px;
+}
+.aaj {
+  height: 150px;
+}
+.urdu4 {
+  display: block;
+  font-weight: 900;
+  color: rgb(214, 159, 58);
+  text-align: center;
+  margin: 6px 5px;
+}
+.urdu5 {
+  display: block;
+  margin-top: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+.urdu6 {
+  display: block;
+  margin-top: 33px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.right {
+  margin-left: 400px;
+}
+.nav {
+  margin-left: 260px;
+  height: 35px;
+}
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 75px 3px;
+  color: black;
+  margin: 10px 10px;
+}
+.full {
+  width: 100%;
+}
+.content h4 {
+  margin: 40;
+  padding: 0;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  padding: 0rem 0.75rem 0.75rem 0.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.content {
+  width: 25%;
+  display: flow-root;
+  border-bottom: 2px solid black;
+}
+.img2 {
+  height: 100px;
+  width: 100px;
+  float: right;
+}
+.smtext {
+  float: left;
+  font-size: 20px;
+  width: 200px;
+}
+.full {
+  display: flex;
+}
+.ganga {
+  display: flow-root;
+  width: 650px;
+  height: 650px;
+}
+.gangakhabar {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  background-color: rgb(241, 236, 236);
+  height: 50px;
+  margin-top: 0px;
+}
+.rightcolumn {
+  border: 2px orangered solid;
+  width: 320px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.rightcolumn h2 {
+  background-color: rgb(216, 195, 195);
+  margin-top: 0px;
+  height: 40px;
+  letter-spacing: 12px;
+  padding-top: 10px;
+}
+.rightcolumn ol li {
+  color: rgb(116, 107, 107);
+  font-weight: 400px;
+  font-size: 20px;
+}
