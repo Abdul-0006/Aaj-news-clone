@@ -34,12 +34,17 @@
 }
 .img1 {
   display: block;
-  margin-left: 360px;
+  margin-left: 314px;
   margin-top: -8px;
   height: 160px;
 }
 .aaj {
-  height: 150px;
+  height: 120px;
+  margin-left: 52px;
+}
+.islam {
+  text-align: center;
+  display: block;
 }
 .urdu4 {
   display: block;
@@ -65,7 +70,7 @@
   margin-left: 400px;
 }
 .nav {
-  margin-left: 260px;
+  margin-left: 200px;
   height: 35px;
 }
 .nav a {
@@ -74,9 +79,11 @@
   padding: 75px 3px;
   color: black;
   margin: 10px 10px;
+  font-size: 20px;
 }
 .full {
   width: 100%;
+  display: flow-root;
 }
 .content h4 {
   margin: 40;
@@ -91,19 +98,22 @@
   text-align: center;
 }
 .content {
-  width: 25%;
-  display: flow-root;
-  border-bottom: 2px solid black;
+  width: 328px;
+  height: 340px;
+  border-bottom: 1px solid black;
+  margin-right: 20px;
 }
 .img2 {
   height: 100px;
   width: 100px;
   float: right;
+  margin-right: 48px;
 }
 .smtext {
   float: left;
   font-size: 20px;
-  width: 200px;
+  width: 180px;
+  display: inline;
 }
 .full {
   display: flex;
@@ -112,6 +122,7 @@
   display: flow-root;
   width: 650px;
   height: 650px;
+  margin-left: 20px;
 }
 .gangakhabar {
   font-weight: bold;
